@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js" defer></script>
+    <script src="node.js" defer></script>
+
+
+    <style>
+        body {
+            background-color: rgb(255, 166, 0);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-image: url(./pexels-aron-visuals-1743165.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            
+        }
+
+        div#segunda_parte {
+            background-color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            }
+
+        div#terceira_parte {
+            
+            background-color: violet
+
+        }
+        div#resultado {
+
+            background-color: violet;
+            font-size: 25px;
+        }
+        #caixa1,#caixa2 {
+            font: normal 18pt arial;
+            width: 100px;
+        }
+        
+
+        div#quarta_parte {
+
+            background-color: tomato
+        }
+
+        .bloco1 {
+            background-color: rgb(0, 123, 139);
+            font-size: 20px
+        }
+
+        ;
+
+    </style>
+
+    <title>Primeira Implementação de Site PIS</title>
+
+</head>
+
+<body>
+
+    <div id="primeira_parte">
+        <h1>Primeira implementação.</h1>
+
+        <h1>Seção 1</h1>
+
+        <p>
+            
+
+            Teste de organização de texto.
+
+        </p>
+
+    </div>
+
+    <div id="segunda_parte" >
+
+        <h1>Segunda Implementação.</h1>
+
+        <p>
+            Teste de eventos.
+
+        </p>
+
+    </div>
+
+    <div id="terceira_parte">
+
+       <h1>Terceira implementação.</h1>
+
+        <p> 
+
+            Teste de soma.
+        
+        </p>
+
+        <input type="number" name="n1" id="caixa1">
+        <input type="number" name="n2" id="caixa2">
+        <input type="button" value="Somar" onclick="somar()">
+
+    </div>
+
+    <div id="resultado">
+
+        Resultado
+
+    </div>
+
+    <div id="quarta_parte">
+
+        <h1>Sistema de Multas</h1>
+        <p class="bloco1">
+        Velocidade do carro:<input type="number" name="velocidade" id="velocidade1" >Km/h
+        <input type="button" value="Verificar" onclick="calcular()">
+        <div id="resultadoMulta"></div>
+
+        </p>
+    </div>
+
+</body>
+
+</html>
